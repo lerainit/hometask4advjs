@@ -56,7 +56,8 @@ fetch('https://ajax.test-danit.com/api/swapi/films').then(response => response.j
 
         })
 
-    }).catch(err =>
-        console.log(err))
+    }).catch(err =>{
+    alert('Something went wrog!Please try to reload page');
+        console.log(err)})
 
 
