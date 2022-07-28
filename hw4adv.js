@@ -51,7 +51,9 @@ fetch('https://ajax.test-danit.com/api/swapi/films').then(response => response.j
 
                 document.querySelectorAll('span').forEach(el => el.className = 'bold')
 
-            }).catch(err => console.log(err))
+            }).catch(err => {
+                alert('Something went wrong!');
+                console.log(err)})
 
 
         })
